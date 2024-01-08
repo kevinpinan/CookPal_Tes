@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado_azul"
+    tools:context=".Elegir_rol">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/descubre"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descubre" />
+    <TextView
+        android:layout_below="@+id/descubre"
+        android:layout_marginTop="20dp"
+        android:id="@+id/quehay"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/Titulo2" />
+
+    <HorizontalScrollView
+        android:id="@+id/carrusel"
+        android:layout_below="@+id/quehay"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="350dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:background="@drawable/border_ima"
+            app:srcCompat="@drawable/receta3"/>
+            <ImageView
+
+                android:layout_width="300dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/receta4"/>
+            <ImageView
+
+                android:layout_width="300dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/receta1"/>
+            <ImageView
+
+                android:layout_width="300dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/receta2"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+
+        android:layout_below="@id/carrusel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="-50dp"
+            android:id="@+id/Btn_rol_user"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/boton1"
+            android:textSize="20dp"
+            android:text="@string/Btn_rol_user" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Btn_rol_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:background="@android:color/transparent"
+            android:elevation="0dp"
+            android:textColor="@color/btnReg"
+
+            android:text="@string/Btn_rol_admin" />
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>

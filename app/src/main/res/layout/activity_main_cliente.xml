@@ -5,45 +5,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivityCliente">
+
     <RelativeLayout
-        android:id="@+id/toolbarRLAdmin"
+        android:id="@+id/toolbarRLCliente"
         android:layout_width="match_parent"
         android:layout_height="@dimen/toolbar_height">
 
-    <TextView
-        android:id="@+id/Titulo_Rl_Admin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/Titulo_Rl_Admin" />
+        <TextView
+            android:id="@+id/Titulo_RL_Client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/Titulo_RL_Client" />
         <View
-            android:background="#ccc"
-            android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="#ccc"
             android:layout_height="1dp"/>
     </RelativeLayout>
-    <FrameLayout
-        android:layout_below="@+id/toolbarRLAdmin"
-        android:id="@+id/Fragments_Admin"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@id/View1"/>
-    <View
-        android:id="@+id/View1"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#ccc"
-        android:layout_above="@id/Bottom_Nv_Admin" />
 
+    <FrameLayout
+        android:id="@+id/fragments_Cliente"
+        android:layout_above="@+id/View2"
+        android:layout_below="@id/toolbarRLCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/View2"
+        android:background="#ccc"
+        android:layout_above="@id/Bottom_nav_clie"
+        android:layout_height="1dp"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-
-        android:id="@+id/Bottom_Nv_Admin"
+        android:id="@+id/Bottom_nav_clie"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/menu_bottom_admin"
+        android:layout_height="wrap_content"
+        app:menu="@menu/menu_bottom_cliente"
         app:labelVisibilityMode="labeled"/>
+
 
 </RelativeLayout>

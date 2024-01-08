@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado_azul"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragmentos_Cliente.Fragment_cliente_cuenta">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+
+        app:cardCornerRadius="10dp"
+        app:contentPadding="10dp">
+
+        <TextView
+            android:id="@+id/Cerrar_Sesion_cliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cerrar_Sesion_cliente"
+            android:gravity="center"
+            android:textSize="15dp"
+            app:drawableEndCompat="@drawable/baseline_logout_24" />
+
+    </com.google.android.material.card.MaterialCardView>
+</ScrollView>

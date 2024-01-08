@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "796642129807",
+    "project_id": "cookpal-214c1",
+    "storage_bucket": "cookpal-214c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796642129807:android:0fd09fd7920eb418317dfa",
+        "android_client_info": {
+          "package_name": "com.example.cookpal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5ESEba2KzoV4fxZjJqUhxFYoFzUruM_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

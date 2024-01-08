@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="5dp"
+    android:layout_height="170dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="0dp"
+    app:contentPadding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_titulo_receta_item"
+            android:text="@string/txt_titulo_receta_item"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:gravity="center"
+            android:layout_toStartOf="@id/Ib_opcionEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:id="@+id/Ib_opcionEditar"
+            android:src="@drawable/ic_opciones"
+            android:background="@android:color/transparent"
+            android:padding="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+
+            android:id="@+id/RLImg_Receta"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/Ib_opcionEditar"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_height="300dp">
+
+
+            <!--aqui entra la imagen de firebase-->
+            <androidx.appcompat.widget.AppCompatImageView
+
+                android:id="@+id/ic_receta_item"
+                android:src="@drawable/ic_receta_item"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+            <TextView
+                android:id="@+id/txt_categoria_receta_admin"
+                android:text="@string/txt_categoria_receta_admin"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/ic_receta_item"
+                android:maxLines="1"
+                android:layout_width="100dp"
+                android:layout_height="200dp"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

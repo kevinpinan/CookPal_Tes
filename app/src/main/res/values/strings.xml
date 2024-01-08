@@ -1,3 +1,89 @@
 <resources>
     <string name="app_name">CookPal</string>
+
+    <string name="Menu_panel">Panel</string>
+    <string name="Menu_cuenta">Cuenta</string>
+    <string name="Titulo_Rl_Admin">Titulo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="descubre">Descubre!!</string>
+    <string name="Titulo2">Que hay de nuevo</string>
+
+    <string name="sms_rol">Por Favor elige un rol</string>
+    <string name="Btn_rol_admin">Ingresar</string>
+    <string name="Btn_rol_user">CookPal</string>
+    <string name="txt_registro_admin">Registro de Administrador</string>
+
+
+    <string name="Etext_nombres_admin">Nombres</string>
+    <string name="Etext_email_admin">Email</string>
+    <string name="Etext_password_admin">Contraseña</string>
+    <string name="Etext_RepPassword_admin">Repita la contraseña</string>
+    <string name="Btn_RegiAdmin">Registrarme</string>
+
+    <string name="CerrarSesionAdminist">Cerrar Sesion</string>
+    <string name="LoginAdmin">Login Administradores</string>
+    <string name="Btn_LoginAdmin">Ingresar</string>
+    <string name="Txt_cuenta_existente">Tengo una cuenta</string>
+    <string name="Btn_agregarCat">Agregar Categoria</string>
+    <string name="txt_agregarCate">Agregar Categoria</string>
+    <string name="EText_Categoria">Ingrese Categoria</string>
+    <string name="Agregar_Cate_BaseDatos">Agregar</string>
+    <string name="Item_nombreCategoAdmin">Nombre categoria</string>
+    <string name="txt_Agregar_Receta">Agregar Receta</string>
+    <string name="Et_titulo_receta">Titulo Receta</string>
+    <string name="Et_descripcion_receta">Ingredientes Receta</string>
+    <string name="TView_categoria_receta">Categoria</string>
+    <string name="btn_subir_receta">Subir</string>
+
+    <string name="txt_titulo_receta">Recetas</string>
+    <string name="txt_categoria_receta">Categoria Receta</string>
+
+    <string name="txt_titulo_receta_item">Titulo Receta</string>
+    <string name="txt_categoria_receta_admin">Categoria</string>
+
+    <string name="txtRegistrarCliente">Registro Cliente</string>
+
+    <string name="Etext_nombresCL">Nombres</string>
+    <string name="Etext_emailCL">Email</string>
+    <string name="Etext_passwordCL">Password</string>
+    <string name="Etext_repetir_passwordCL">Repetir Password</string>
+    <string name="Btn_RegiCL">Registrarme</string>
+
+    <!--menu cliente-->
+    <string name="menu_dashboard_cliente">Dashboard</string>
+    <string name="menu_cuenta_cliente">Cuenta</string>
+
+    <string name="Titulo_RL_Client">Titulo</string>
+    <string name="Cerrar_Sesion_cliente">Cerrar Sesion</string>
+    <string name="Btn_Regi_cliente">Registrarme</string>
+
+    <!--CLiente-->
+    <string name="LoginCliente">Login Cliente</string>
+    <string name="Btn_LoginCliente">Ingresar</string>
+
+    <string name="item_nombre_Cate_cliente">Nombre categoria</string>
+
+    <!--Detalle_admin-->
+    <string name="Txt_DetalleReceta_admin">Detalle Receta</string>
+    <string name="Txt_Titulo_DetalleReceta_admin">Titulo Receta</string>
+    <string name="Txt_Categoria_DetalleReceta_admin">Categoria</string>
+    <string name="Txt_Ingredientes_DetalleReceta_admin">Ingredientes</string>
+
+    <string name="descricion_D_admin">--</string>
+
+    <!--Detalle_cliente-->
+    <string name="Txt_DetalleReceta_cliente">Detalle Receta</string>
+    <string name="Txt_Titulo_DetalleReceta_cliente">Titulo Receta</string>
+    <string name="Txt_Categoria_DetalleReceta_cliente">Categoria</string>
+    <string name="Txt_Ingredientes_DetalleReceta_cliente">Ingredientes</string>
+
+    <string name="descricion_D_cliente">--</string>
+
+
+
+
+
+
 </resources>
