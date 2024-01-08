@@ -11,7 +11,7 @@ La aplicacion desarrollada, esta enfocada para realizar gestion de recetas de co
 5. Conectarse con "firebase"
 6. Desplegar en android : ejecutar
 
-enlace apk: [apk] (https://epnecuador-my.sharepoint.com/:f:/g/personal/kevin_pinanjota_epn_edu_ec/EpNlowVaCClKqTB1HEyqFPEBhFgWHsfUWbXO0aPghyhXtQ?e=bgvwnU).
+enlace apk: [apk](https://epnecuador-my.sharepoint.com/:f:/g/personal/kevin_pinanjota_epn_edu_ec/EpNlowVaCClKqTB1HEyqFPEBhFgWHsfUWbXO0aPghyhXtQ?e=bgvwnU).
 
 ## Manual de Usuario
 
