@@ -1,5 +1,10 @@
 # COOKPAL 
+![image](https://github.com/kevinpinan/CookPal_Tes/assets/74762981/775e6dbb-959d-4c40-baa1-26fbd273f1c3)
 
+<p align="center">
+  <img src="https://github.com/kevinpinan/CookPal_Tes/assets/74762981/775e6dbb-959d-4c40-baa1-26fbd273f1c3" alt="Pantalla de Inicio">
+  
+</p>
 La aplicacion desarrollada, esta enfocada para realizar gestion de recetas de cocina.
 
 ## Manual de Instalacion
